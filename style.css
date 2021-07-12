@@ -407,7 +407,7 @@ footer {
   .grid-5,
   .grid-6 {
     margin: 0;
-    padding: 0;
+    padding: 20px;
   }
 
   .my-name {
@@ -418,5 +418,13 @@ footer {
   }
   .social-links {
     width: 300px;
+  }
+  .contucts-wrapper {
+    min-width: 200px;
+  }
+  .contuct-container a,
+  span {
+    font-size: 15px;
+    display: block;
   }
 }
