@@ -302,11 +302,12 @@ nav li:hover .nav-link {
 #contucts {
   background-color: rgb(255 207 255 / 78%);
   padding: 50px 30px;
-
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
 }
 .contucts-wrapper {
+  box-sizing: border-box;
   padding: 30px;
   background-color: #fff6fe59;
   border-radius: 20px;
@@ -370,10 +371,6 @@ footer {
   text-align: center;
 }
 @media (max-width: 800px) {
-  #about-me p,
-  .content-wrapper p {
-    width: 400px;
-  }
   .card {
     padding: 5%;
   }
@@ -412,9 +409,7 @@ footer {
     margin: 0;
     padding: 0;
   }
-  .projects p {
-    width: 400px;
-  }
+
   .my-name {
     flex-direction: column;
   }
