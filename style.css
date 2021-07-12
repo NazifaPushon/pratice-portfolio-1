@@ -428,4 +428,8 @@ footer {
     font-size: 15px;
     display: block;
   }
+  #skills h1::before,
+  #my-name:hover#my-name::before {
+    width: 200px;
+  }
 }
